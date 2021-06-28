@@ -1,0 +1,27 @@
+2021-06-28 03:16:50,406 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-06-28 03:16:50,421 INFO RPC interface 'supervisor' initialized
+2021-06-28 03:16:50,422 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-06-28 03:16:50,423 INFO supervisord started with pid 1
+2021-06-28 03:16:51,431 INFO spawned: 'dramatiq' with pid 172
+2021-06-28 03:16:51,441 INFO spawned: 'gunicorn' with pid 173
+2021-06-28 03:16:51,460 INFO spawned: 'nginx' with pid 174
+2021-06-28 03:16:56,910 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-06-28 03:16:56,911 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-06-28 03:16:56,911 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-06-28 04:01:53,904 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-06-28 04:01:53,927 INFO RPC interface 'supervisor' initialized
+2021-06-28 04:01:53,928 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-06-28 04:01:53,929 INFO supervisord started with pid 1
+2021-06-28 04:01:54,939 INFO spawned: 'dramatiq' with pid 155
+2021-06-28 04:01:54,949 INFO spawned: 'gunicorn' with pid 156
+2021-06-28 04:01:54,963 INFO spawned: 'nginx' with pid 157
+2021-06-28 04:02:00,414 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-06-28 04:02:00,415 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-06-28 04:02:00,417 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2021-06-28 04:02:42,365 WARN received SIGTERM indicating exit request
+2021-06-28 04:02:42,366 INFO waiting for dramatiq, gunicorn, nginx to die
+2021-06-28 04:02:42,379 INFO stopped: nginx (exit status 0)
+2021-06-28 04:02:43,627 INFO stopped: gunicorn (exit status 0)
+2021-06-28 04:02:45,014 WARN received SIGTERM indicating exit request
+2021-06-28 04:02:45,372 INFO waiting for dramatiq to die
+2021-06-28 04:02:46,451 INFO stopped: dramatiq (exit status 0)

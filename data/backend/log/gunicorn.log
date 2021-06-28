@@ -1,0 +1,14 @@
+[2021-06-28 03:16:51 +0000] [173] [INFO] Starting gunicorn 19.9.0
+[2021-06-28 03:16:51 +0000] [173] [INFO] Listening at: http://127.0.0.1:8080 (173)
+[2021-06-28 03:16:51 +0000] [173] [INFO] Using worker: threads
+[2021-06-28 03:16:51 +0000] [178] [INFO] Booting worker with pid: 178
+[2021-06-28 03:16:51 +0000] [179] [INFO] Booting worker with pid: 179
+[2021-06-28 04:01:55 +0000] [156] [INFO] Starting gunicorn 19.9.0
+[2021-06-28 04:01:55 +0000] [156] [INFO] Listening at: http://127.0.0.1:8080 (156)
+[2021-06-28 04:01:55 +0000] [156] [INFO] Using worker: threads
+[2021-06-28 04:01:55 +0000] [161] [INFO] Booting worker with pid: 161
+[2021-06-28 04:01:55 +0000] [162] [INFO] Booting worker with pid: 162
+[2021-06-28 04:02:42 +0000] [156] [INFO] Handling signal: term
+[2021-06-28 04:02:43 +0000] [161] [INFO] Worker exiting (pid: 161)
+[2021-06-28 04:02:43 +0000] [162] [INFO] Worker exiting (pid: 162)
+[2021-06-28 04:02:43 +0000] [156] [INFO] Shutting down: Master
